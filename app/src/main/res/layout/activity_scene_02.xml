@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_02"
+    tools:showPaths="true"
+    tools:context=".SceneOneActivity">
+
+    <View
+        android:id="@+id/square_left"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_shape"
+        android:text="@string/button" />
+
+    <View
+        android:id="@+id/square_right"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_shape"
+        android:text="@string/button" />
+
+    <View
+        android:id="@+id/square_center"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_shape"
+        android:text="@string/button" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
